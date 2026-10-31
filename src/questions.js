@@ -1,0 +1,32 @@
+export const questions = [
+  { category: 'TEMEL VERİLER', prompt: 'Adın ne, galaksinin baş karakteri?', type: 'text', placeholder: 'İsmini yaz' },
+  { category: 'TEMEL VERİLER', prompt: 'En sevdiğin renk hangisi?', type: 'text', placeholder: 'Örn. gece mavisi' },
+  { category: 'TEMEL VERİLER', prompt: 'Hangi yıldız tarihinde doğdun?', type: 'date' },
+  { category: 'TEMEL VERİLER', prompt: 'Ruhunu iyileştiren yemek ne?', type: 'text', placeholder: 'Örn. mantı, ramen, pizza...' },
+  { category: 'TEMEL VERİLER', prompt: 'Hangi mevsimde daha çok parlıyorsun?', type: 'choice', options: ['İlkbahar', 'Yaz', 'Sonbahar', 'Kış'] },
+  { category: 'ÇOCUKLUK VE GEÇMİŞ', prompt: 'Küçükken en sevdiğin yer neresiydi?', type: 'text', placeholder: 'Mahalle parkı, anneanne evi...' },
+  { category: 'ÇOCUKLUK VE GEÇMİŞ', prompt: 'Çocukken en sevdiğin ders hangisiydi?', type: 'choice', options: ['Matematik', 'Türkçe', 'Fen', 'Resim / Müzik', 'Teneffüs'] },
+  { category: 'ÇOCUKLUK VE GEÇMİŞ', prompt: 'Küçükken ne olmak isterdin?', type: 'text', placeholder: 'Dürüst ol: astronot serbest' },
+  { category: 'ÇOCUKLUK VE GEÇMİŞ', prompt: 'Çocukluk çizgi film favorin?', type: 'text', placeholder: 'İsmini yaz' },
+  { category: 'ÇOCUKLUK VE GEÇMİŞ', prompt: 'Küçükken en çok neden korkardın?', type: 'text', placeholder: 'Karanlık, palyaçolar, matematik...' },
+  { category: 'KİŞİLİK VE TERCİHLER', prompt: 'Anneni mi babanı mı daha çok özlersin?', type: 'choice', options: ['Annemi', 'Babamı', 'İkisini de', 'Bu soruda pas geçiyorum'] },
+  { category: 'KİŞİLİK VE TERCİHLER', prompt: 'Sabah insanı mısın, gece insanı mı?', type: 'choice', options: ['Sabah insanıyım', 'Gece insanıyım', 'İnsan değilim, kahveyim'] },
+  { category: 'KİŞİLİK VE TERCİHLER', prompt: 'Deniz mi, dağ mı?', type: 'choice', options: ['Deniz', 'Dağ', 'İkisini de verin'] },
+  { category: 'KİŞİLİK VE TERCİHLER', prompt: 'Kalabalık mı, yalnızlık mı?', type: 'choice', options: ['Kalabalık', 'Yalnızlık', 'Doğru insanlarla ikisi de'] },
+  { category: 'KİŞİLİK VE TERCİHLER', prompt: 'Tartışınca ilk kim barışır?', type: 'choice', options: ['Ben barışırım', 'O barışır', 'İkimiz de inatçıyız', 'Kedimiz / evren'] },
+  { category: 'KİŞİLİK VE TERCİHLER', prompt: 'En sinir olduğun davranış ne?', type: 'text', placeholder: 'Sakin kal. Ama yaz.' },
+  { category: 'KİŞİLİK VE TERCİHLER', prompt: 'Bir süper gücün olsa hangisini seçerdin?', type: 'text', placeholder: 'Zamanı durdurmak serbest' },
+  { category: 'KİŞİLİK VE TERCİHLER', prompt: 'En büyük takıntın ne?', type: 'text', placeholder: 'Kimse yargılamıyor (sanırım)' },
+  { category: 'ROMANTİZM / KAOS', prompt: 'İlk görüşte aşk mümkün mü?', type: 'choice', options: ['Kesinlikle', 'Olabilir', 'Önce kahve içelim', 'Hayır ama ikinci bakışta olabilir'] },
+  { category: 'ROMANTİZM / KAOS', prompt: 'Partnerinde en sevdiğin fiziksel özellik?', type: 'text', placeholder: 'Tatlı ama dürüst ol' },
+  { category: 'ROMANTİZM / KAOS', prompt: 'Birlikte yaşasanız en çok neye takılırsınız?', type: 'text', placeholder: 'Bulaşık, klima, yorgan savaşı...' },
+  { category: 'ROMANTİZM / KAOS', prompt: 'Kıskançlık seviyen kaç?', type: 'range' },
+  { category: 'ROMANTİZM / KAOS', prompt: 'Partnerinin en komik huyu ne olurdu?', type: 'text', placeholder: 'Şimdiden düşünüp gülüyorsan yaz' },
+  { category: 'ROMANTİZM / KAOS', prompt: 'Issız adada ilk yapacağınız şey?', type: 'text', placeholder: 'İdeal cevap yok. İyi şanslar.' },
+  { category: 'ROMANTİZM / KAOS', prompt: 'Partnerin için galaksiyi yok eder miydin?', type: 'choice', options: ['Evet, tereddütsüz', 'Önce bir konuşalım', 'Hayır ama playlist yaparım', 'Galaksiyi değil, eski fotoğrafları'] },
+]
+
+export const personas = {
+  padme: { label: 'PADMÉ', emoji: '🌼', role: 'Diplomatik kalp', accent: 'sun' },
+  anakin: { label: 'ANAKIN', emoji: '⚔️', role: 'Kontrollü kaos', accent: 'blue' },
+}
